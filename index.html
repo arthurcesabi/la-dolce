@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="La Dolce, sorveteria artesanal. Sabores feitos com calma, servidos com carinho." />
+  <title>La Dolce — Sorveteria Artesanal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="La Dolce início"><span class="brand-mark">L</span><span>La <em>Dolce</em></span></a>
+    <nav aria-label="Navegação principal"><a href="#sobre">Nossa história</a><a href="#cardapio">Cardápio</a><a href="#visite">Visite-nos</a></nav>
+    <a class="order-button" href="#cardapio">Pedir agora <span>↗</span></a>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="hero-copy"><div class="eyebrow"><span class="eyebrow-dot"></span> SORVETERIA ARTESANAL · DESDE 2014</div><h1>Um pouco de<br /><i>doçura</i> faz bem.</h1><p>Gelatos cremosos, ingredientes honestos e aquele tempo gostoso que a gente não quer que passe.</p><div class="hero-actions"><a class="button button-dark" href="#cardapio">Conheça o cardápio <span>↓</span></a><a class="text-button" href="#sobre">Nossa história <span>↗</span></a></div></div>
+      <div class="hero-image"><img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=1300&q=88" alt="Taça de sorvete artesanal com frutas e calda" /><div class="image-stamp"><span>FEITO<br />COM AMOR</span><strong>✳</strong></div><span class="image-caption">SABOR DA ESTAÇÃO / MORANGO &amp; MANJERICÃO</span></div><div class="hero-side-note">NATURALMENTE<br />ESPECIAL <span>✳</span></div>
+    </section>
+
+    <section id="sobre" class="intro shell"><div class="section-index">01 / A CASA</div><div class="intro-copy"><p class="small-label">MAIS QUE SORVETE</p><h2>O sabor das coisas<br /><i>bem feitas.</i></h2><p class="body-copy">Na La Dolce, cada receita começa com uma escolha: fazer tudo com mais cuidado. Frutas maduras, leite fresco, chocolate de verdade e uma cozinha que respeita o tempo de cada ingrediente.</p><a class="text-button" href="#visite">Venha conhecer <span>↗</span></a></div><div class="intro-note"><span>PEQUENOS<br />LOTES</span><b>10</b><span>SABORES FIXOS<br />+ EDIÇÕES ESPECIAIS</span></div></section>
+
+    <section id="cardapio" class="menu-section shell"><div class="menu-heading"><div><div class="section-index">02 / NOSSO CARDÁPIO</div><h2>Escolha seu<br /><i>momento.</i></h2></div><p>Produção diária<br />na nossa cozinha.</p></div><div class="menu-tabs" role="tablist" aria-label="Categorias do cardápio"><button class="menu-tab active" data-category="todos" role="tab" aria-selected="true">Todos</button><button class="menu-tab" data-category="gelatos" role="tab" aria-selected="false">Gelatos</button><button class="menu-tab" data-category="especiais" role="tab" aria-selected="false">Especiais</button><button class="menu-tab" data-category="bebidas" role="tab" aria-selected="false">Bebidas</button></div><div class="menu-grid">
+      <article class="menu-card" data-category="gelatos"><div class="item-number">01</div><div class="flavor-ball flavor-pistachio"></div><div class="item-info"><span class="item-type">GELATO / CREMOSO</span><h3>Pistache Siciliano</h3><p>Pistache torrado, creme fresco e flor de sal.</p><strong>R$ 12,00 <small>1 bola</small></strong></div></article>
+      <article class="menu-card" data-category="gelatos"><div class="item-number">02</div><div class="flavor-ball flavor-chocolate"></div><div class="item-info"><span class="item-type">GELATO / INTENSO</span><h3>Chocolate 70%</h3><p>Cacau brasileiro e chocolate amargo.</p><strong>R$ 11,00 <small>1 bola</small></strong></div></article>
+      <article class="menu-card" data-category="gelatos"><div class="item-number">03</div><div class="flavor-ball flavor-fruit"></div><div class="item-info"><span class="item-type">SORBET / FRUTADO</span><h3>Morango da Serra</h3><p>Morangos frescos, limão-taiti e textura leve.</p><strong>R$ 10,00 <small>1 bola</small></strong></div></article>
+      <article class="menu-card" data-category="gelatos"><div class="item-number">04</div><div class="flavor-ball flavor-vanilla"></div><div class="item-info"><span class="item-type">GELATO / CLÁSSICO</span><h3>Baunilha Bourbon</h3><p>Baunilha de Madagascar e leite fresco.</p><strong>R$ 10,00 <small>1 bola</small></strong></div></article>
+      <article class="menu-card" data-category="gelatos"><div class="item-number">05</div><div class="flavor-ball flavor-caramel"></div><div class="item-info"><span class="item-type">GELATO / CREMOSO</span><h3>Doce de Leite</h3><p>Doce de leite artesanal e castanha crocante.</p><strong>R$ 11,00 <small>1 bola</small></strong></div></article>
+      <article class="menu-card" data-category="gelatos"><div class="item-number">06</div><div class="flavor-ball flavor-lemon"></div><div class="item-info"><span class="item-type">SORBET / REFRESCANTE</span><h3>Limão Siciliano</h3><p>Acidez elegante e frescor para o paladar.</p><strong>R$ 10,00 <small>1 bola</small></strong></div></article>
+      <article class="menu-card" data-category="especiais"><div class="item-number">07</div><div class="flavor-ball flavor-cup"></div><div class="item-info"><span class="item-type">DA CASA / FAVORITO</span><h3>Affogato La Dolce</h3><p>Baunilha, espresso duplo e amêndoas.</p><strong>R$ 19,00 <small>servido na taça</small></strong></div></article>
+      <article class="menu-card" data-category="especiais"><div class="item-number">08</div><div class="flavor-ball flavor-sundae"></div><div class="item-info"><span class="item-type">DA CASA / COMPARTILHAR</span><h3>Dolce Sundae</h3><p>Três bolas, calda quente, chantilly e cereja.</p><strong>R$ 28,00 <small>até 2 pessoas</small></strong></div></article>
+      <article class="menu-card" data-category="bebidas"><div class="item-number">09</div><div class="flavor-ball flavor-coffee"></div><div class="item-info"><span class="item-type">BEBIDA / QUENTE</span><h3>Espresso Duplo</h3><p>Café especial torrado para acompanhar.</p><strong>R$ 8,00 <small>60 ml</small></strong></div></article>
+      <article class="menu-card" data-category="bebidas"><div class="item-number">10</div><div class="flavor-ball flavor-pink"></div><div class="item-info"><span class="item-type">BEBIDA / GELADA</span><h3>Pink Lemonade</h3><p>Limão, frutas vermelhas e água com gás.</p><strong>R$ 14,00 <small>400 ml</small></strong></div></article>
+    </div><div id="menu-empty" class="menu-empty" hidden>Nenhum item nesta categoria por enquanto.</div><div class="menu-footer"><span>✳ Copinho ou casquinha.</span><span>Consulte opções sem lactose.</span></div></section>
+
+    <section id="visite" class="visit shell"><div class="visit-card"><div><div class="section-index">03 / VENHA NOS VER</div><h2>Seu lugar para<br /><i>ficar mais um pouco.</i></h2></div><div class="visit-details"><div><span>ENDEREÇO</span><strong>Rua das Flores, 214<br />Jardins · São Paulo</strong></div><div><span>HORÁRIOS</span><strong>Ter — Qui · 12h — 22h<br />Sex — Dom · 12h — 23h</strong></div><a class="button button-dark" href="https://maps.google.com" target="_blank" rel="noreferrer">Como chegar <span>↗</span></a></div></div></section>
+  </main>
+  <footer class="footer shell"><a class="brand" href="#inicio"><span class="brand-mark">L</span><span>La <em>Dolce</em></span></a><span>© LA DOLCE · 2026</span><span>FEITO COM CARINHO</span></footer><div id="toast" class="toast" role="status" aria-live="polite"></div><script src="script.js"></script>
+</body>
+</html>
